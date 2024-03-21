@@ -43,9 +43,9 @@ const Modal = ({ productId }: Props) => {
                         enter="ease-out duration-300"
                         enterFrom="opacity-0"
                         enterTo="opacity-100"
-                        Leave="ease-in duration-200"
-                        LeaveFrom="opacity-100"
-                        LeaveTo="opacity-0"
+                        leave="ease-in duration-200"
+                        leaveFrom="opacity-100"
+                        leaveTo="opacity-0"
                     >
                         <Dialog.Overlay className="fixed inset-0" />
                     </Transition.Child>
@@ -62,9 +62,9 @@ const Modal = ({ productId }: Props) => {
                         enter="ease-out duration-300"
                         enterFrom="opacity-0 scale-95"
                         enterTo="opacity-100 scale-100"
-                        Leave="ease-in duration-200"
-                        LeaveFrom="opacity-100 scale-100"
-                        LeaveTo="opacity-0 scale-95"
+                        leave="ease-in duration-200"
+                        leaveFrom="opacity-100 scale-100"
+                        leaveTo="opacity-0 scale-95"
                     >
                         <div className="dialog-content">
                             <div className="flex flex-col">
